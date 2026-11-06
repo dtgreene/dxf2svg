@@ -1,10 +1,10 @@
 # dxf2svg
 
-A small browser tool that converts DXF drawings to SVG, joining loose segments into connected, closed paths along the way.
+A small browser tool that converts DXF drawings to SVG, joining loose segments into closed paths along the way.
 
-**[Try it here](https://dtgreene.github.io/dxf2svg/)**. Files are processed in your browser and never uploaded.
+It was made for DXFs exported from Onshape, which usually have gaps in their paths that need fixing before use in VCarve. It isn't a full DXF converter and focuses on 2D geometry only.
 
-This isn't a full DXF converter. It handles the 2D geometry in a drawing and leaves the rest out.
+https://dtgreene.github.io/dxf2svg/
 
 ## What it does
 
