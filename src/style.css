@@ -18,7 +18,11 @@
 @layer base {
   :root {
     color-scheme: light dark;
-    font: 16px/1.45 system-ui, 'Segoe UI', Roboto, sans-serif;
+    font:
+      16px/1.45 system-ui,
+      'Segoe UI',
+      Roboto,
+      sans-serif;
     color: var(--color-text);
     background: var(--color-bg);
   }
