@@ -1,0 +1,26 @@
+{
+  "name": "dxf2svg",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:gh": "tsc && vite build --base=/dxf2svg/",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "tailwindcss": "^4.3.5",
+    "typescript": "~7.0.2",
+    "vite": "^8.3.6"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true
+  },
+  "dependencies": {
+    "kdbush": "^4.1.0",
+    "transformation-matrix": "^3.1.0"
+  }
+}
